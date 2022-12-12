@@ -16,5 +16,5 @@ Formulário utilizando React.js e Tailwind CSS. Projeto desenvolvido durante o v
 
 <div align="center">
   <img alt="Next.js Form" src="https://i.imgur.com/hnApmwR.png" width="450px">
-  <p>Confira o resultado: <a href="/" target="_blank">...</a></p>
+  <p>Confira o resultado: <a href="https://nextjs-form-ruuuff.vercel.app/" target="_blank">Next.js Form</a></p>
 </div>

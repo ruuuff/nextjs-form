@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        latoRegular: ["Lato Regular", "sans-serif"],
+        latoBold: ["Lato Bold", "sans-serif"],
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};

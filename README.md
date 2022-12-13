@@ -1,6 +1,6 @@
 # ⚙️ Projeto
 
-Formulário utilizando React.js e Tailwind CSS. Projeto desenvolvido durante o vídeo <a href="https://www.youtube.com/watch?v=oPteQFUK42w" target="_blank">The Ultimate Guide To Forms In React Tutorial</a>, do canal <a href="https://www.youtube.com/@developedbyed" target="_blank">developedbyed</a>.
+Formulário utilizando React.js e Tailwind CSS, com a implementação de um design responsivo e interações CSS com os campos. Projeto desenvolvido durante o vídeo <a href="https://www.youtube.com/watch?v=oPteQFUK42w" target="_blank">The Ultimate Guide To Forms In React Tutorial</a>, do canal <a href="https://www.youtube.com/@developedbyed" target="_blank">developedbyed</a>.
 
 # ✈️ Tecnologias
 

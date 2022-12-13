@@ -129,7 +129,14 @@ export default function Home() {
 
             <button
               type="submit"
-              className="bg-teal-500 font-latoBold text-sm text-white py-3 mt-6 rounded-lg w-full"
+              disabled={Boolean(
+                !formik.values.name ||
+                  formik.errors.name ||
+                  !formik.values.email ||
+                  formik.errors.email ||
+                  formik.errors.terms
+              )}
+              className="bg-teal-500 font-latoBold text-sm text-white py-3 mt-6 rounded-lg w-full hover:bg-teal-600 disabled:bg-teal-400 disabled:cursor-not-allowed"
             >
               Start learning totay!
             </button>

@@ -35,6 +35,7 @@ export default function Home() {
 
     validationSchema: Yup.object({
       name: Yup.string()
+        .min(2, "Name must be 2 characters or more.")
         .max(20, "Name must be 20 characters or less.")
         .required("Name is required"),
       email: Yup.string()

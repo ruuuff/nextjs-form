@@ -115,7 +115,7 @@ export default function Home() {
               <SelectField
                 id="country"
                 label="Country"
-                fields={countries}
+                options={countries}
                 value={formik.values.country}
                 onChange={formik.handleChange}
               />

@@ -1,7 +1,7 @@
 interface SelectFieldProps {
   id: string;
   label: string;
-  fields: string[];
+  options: string[] | number[];
   value: string;
   onChange: any;
 }
@@ -9,7 +9,7 @@ interface SelectFieldProps {
 export default function SelectField({
   id,
   label,
-  fields,
+  options,
   value,
   onChange,
 }: SelectFieldProps) {
@@ -25,9 +25,9 @@ export default function SelectField({
         onChange={onChange}
         className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500 outline-none tablet:w-full"
       >
-        {fields.map((field, index) => (
-          <option key={index} value={field}>
-            {field}
+        {options.map((option, index) => (
+          <option key={index} value={option}>
+            {option}
           </option>
         ))}
       </select>

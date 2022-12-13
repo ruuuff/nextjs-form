@@ -28,16 +28,16 @@ export default function TermsOfService({
       >
         {error ? errorMessage : "Terms of service"}
       </label>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <input
           id="terms"
           name="terms"
           type="checkbox"
           value="checked"
           onChange={onChange}
-          className={`h-5 w-5 border-2 ${
+          className={`h-5 w-5 border-2 cursor-pointer ${
             error
-              ? " border-red-400 focus:ring-red-400"
+              ? "border-red-400 focus:ring-red-400"
               : "text-teal-500 focus:border-teal-500 focus:ring-teal-500"
           }`}
         />

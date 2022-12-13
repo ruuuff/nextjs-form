@@ -18,11 +18,11 @@ export default function Success() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-center py-8"
     >
-      <div className="bg-white rounded-lg w-1/2 font-latoRegular text-gray-700 p-16">
+      <div className="bg-white rounded-lg w-[min(100%,_1024px)] font-latoRegular text-gray-700 p-16 laptop:mx-6 tablet:p-10">
         <h1 className="text-3xl pb-4 font-latoBold">
-          Thanks for the Email {router.query.name} 🌟
+          Thanks for the Email {router.query.name} ✨
         </h1>
         <p className="text-lg text-gray-500">
           We have sent you an email over at{" "}

@@ -74,12 +74,12 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      <main className="min-h-screen flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center py-8 laptop:py-0">
         <form
           onSubmit={formik.handleSubmit}
-          className="bg-white flex rounded-lg w-1/2 font-latoRegular"
+          className="bg-white flex rounded-lg w-[min(100%,_1024px)] font-latoRegular laptop:w-full laptop:min-h-screen laptop:rounded-none"
         >
-          <div className="flex-1 text-gray-700 p-20">
+          <div className="flex-1 text-gray-700 p-20 laptop:flex laptop:flex-col laptop:justify-center laptop:p-16 mobile:px-10">
             <h1 className="text-3xl pb-2 font-latoBold">
               Let&apos;s get started 👋
             </h1>
@@ -134,14 +134,14 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="flex-1 relative">
+          <div className="flex-1 relative tablet:hidden">
             <Image
               src={formImage}
               alt="form-learn"
               fill
               priority
               sizes="100%"
-              className="object-cover rounded-lg"
+              className="object-cover rounded-lg laptop:rounded-none"
             />
           </div>
         </form>

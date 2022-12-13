@@ -44,7 +44,7 @@ export default function InputField({
         {error ? errorMessage : label}
       </label>
       <input
-        className={`border-2 border-gray-500 p-2 rounded-md w-1/2  outline-none ${
+        className={`border-2 border-gray-500 p-2 rounded-md w-1/2 outline-none tablet:w-full ${
           error
             ? "border-red-400 focus:border-red-400 focus:ring-red-400"
             : "focus:border-teal-500 focus:ring-teal-500"

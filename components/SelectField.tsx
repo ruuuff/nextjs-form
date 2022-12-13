@@ -23,7 +23,7 @@ export default function SelectField({
         name={id}
         value={value}
         onChange={onChange}
-        className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500 outline-none"
+        className="border-2 border-gray-500 p-2 rounded-md w-1/2 focus:border-teal-500 focus:ring-teal-500 outline-none tablet:w-full"
       >
         {fields.map((field, index) => (
           <option key={index} value={field}>
